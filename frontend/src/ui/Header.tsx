@@ -3,7 +3,7 @@ import React from "react";
 export default function Header({ step }: { step: 1 | 2 }) {
   return (
     <div className="relative overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-500 opacity-95" />
+      <div className="absolute inset-0 bg-gradient-to-r from-blue-700 via-fuchsia-500 to-pink-300 opacity-95" />
       <div className="absolute -top-20 -left-24 h-64 w-64 rounded-full bg-white/15 blur-2xl" />
       <div className="absolute -bottom-24 -right-28 h-72 w-72 rounded-full bg-black/10 blur-2xl" />
 
